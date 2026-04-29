@@ -1,7 +1,22 @@
 @font-face {
     font-family: "Unbounded";
-    src: url("../fonts/");
+    src: url("../fonts/Unbounded-Bold.ttf")
+    formart("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf")
+    formart("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /*css reset basico*/
 * {
@@ -16,8 +31,6 @@ body {
 
 h1 {
     font-family: 'Unbounded', sans-serif;
-    font-weight:bold;
-    font-size: 70px;
 }
 
 h1 span {
@@ -30,5 +43,4 @@ a {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-weight: regular;
 }
