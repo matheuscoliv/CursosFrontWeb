@@ -1,3 +1,5 @@
+/*@fontface declara como o import deve se comportar ( local )*/
+
 @font-face {
     font-family: "Unbounded";
     src: url("../fonts/Unbounded-Bold.ttf")
@@ -34,13 +36,19 @@ h1 {
 }
 
 h1 span {
+    font-size: 81px;
     color: #9747FF;
 }
 
 a {
     color: #ffffff;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    
 }
 
 p {
+    font-size: 32px;
     font-family: 'Poppins', sans-serif;
 }
