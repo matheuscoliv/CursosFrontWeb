@@ -26,20 +26,21 @@
                     <legend>Dados Pessoais</legend>
                     <label for="name">Nome</label>
                     <input id="name" type="text" name="userName" required>
+                    <br>
 
                     <label for="age">Idade</label>
                     <input id="age" type="number" name="age" min="12" max="100" required>
-
+                    <br>
                     <label for="birthdate">Data de Nascimento</label>
                     <input id="birthdate" type="date" name="birthdate">
-
+                    <br>
                     <label for="email">Email</label>
                     <input id="email" type="email" name="userEmail" required>
-
+                    <br>
                     <label for="phoneNumber">Telefone</label>
                     <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9{11}]"
                         placeholder="DDD + numero sem espaco e hifen">
-
+                    <br>
 
                     <label for="image">Upload de Foto</label>
                     <input id="image" type="file" accept="image/*" name="userImage">
@@ -56,7 +57,7 @@
 
                     <input id="otherNotInformed" type="radio" name="userGender" value="outro/prefiroNaoInformar">
                     <label for="otherNotInformed">Outro/Prefiro Não Informar</label>
-
+                    <br>
                     <label for="maritalStatus">Estado Civil</label>
                     <select id="maritalStatus" name="userMaritalStatus">
                         <option value="notSelected">Selecione...</option>
@@ -66,7 +67,7 @@
                         <option value="divorciado">Divorciado</option>
                     </select>
 
-
+                    <br>
                     <label for="state">Estados</label>
                     <select id="state" name="userState" required>
                         <option value="acre">Acre</option>
@@ -98,7 +99,7 @@
                         <option value="tocantins">Tocantins</option>
                     </select>
 
-
+                    <br>
                     <label for="city">Cidade</label>
                     <input type="text" id="city" name="userCity" autocomplete="address-level2"
                         placeholder="Ex: Goiânia">
@@ -111,16 +112,16 @@
                     <p>Redes Sociais:</p>
                     <input id="instagram" type="checkbox" name="social" value="instagram">
                     <label for="instagram">Instagram</label>
-
+                    <br>
                     <input id="facebook" type="checkbox" name="social" value="facebook">
                     <label for="facebook">Facebook</label>
-
+                    <br>
                     <input id="tiktok" type="checkbox" name="social" value="tiktok">
                     <label for="tiktok">TikTok</label>
-
+                    <br>
                     <input id="twitterX" type="checkbox" name="social" value="twitter">
                     <label for="twitterX">Twitter/X</label>
-
+                    <br>
                     <input id="linkedin" type="checkbox" name="social" value="linkedin">
                     <label for="linkedin">LinkedIn</label>
                     <br>
@@ -135,7 +136,7 @@
                         <option value="Sertanejo">
                         <option value="Outro">
                     </datalist>
-
+                    <br>
                     <label for="favoriteColor">Cor Favorita</label>
                     <input type="color" name="userFavoriteColor" id="favoriteColor">
                 </fieldset>
@@ -145,11 +146,13 @@
 
                     <p>O que voce acha do nosso serviço</p>
                     <textarea>Digite sua opnião...</textarea>
-
+                    <br>
                     <input type="radio" name="userOpnion" id="otima">
                     <label>Otima</label>
+                    <br>
                     <input type="radio" name="userOpnion" id="regular">
                     <label>Regular</label>
+                    <br>
                     <input type="radio" name="userOpnion" id="ruim">
                     <label>Ruim</label>
                 </fieldset>
