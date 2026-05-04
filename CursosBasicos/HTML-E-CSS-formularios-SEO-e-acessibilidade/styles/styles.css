@@ -13,6 +13,7 @@ img {
     width: 100px;
 }
 h1 {
+    text-align: center;
     font-family: "Fjalla One", sans-serif;
 }
 
@@ -103,3 +104,4 @@ button[type="reset"]:hover {
     color: white;
 
 }
+
