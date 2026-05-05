@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>0
 <html lang="en">
 
 <head>
@@ -144,17 +144,19 @@
                 <fieldset>
                     <legend>Opnião</legend>
 
-                    <p>O que voce acha do nosso serviço</p>
-                    <textarea>Digite sua opnião...</textarea>
+                    <label for="comment">Escreva sua opinião:</label>
+                    <textarea id="comment" name="userComment" placeholder="Digite aqui sua opinião..."></textarea>
+
+
                     <br>
                     <input type="radio" name="userOpnion" id="otima">
-                    <label>Otima</label>
+                    <label for="otima">Otima</label>
                     <br>
                     <input type="radio" name="userOpnion" id="regular">
-                    <label>Regular</label>
+                    <label for="regular">Regular</label>
                     <br>
                     <input type="radio" name="userOpnion" id="ruim">
-                    <label>Ruim</label>
+                    <label for="ruim">Ruim</label>
                 </fieldset>
 
 
@@ -165,7 +167,7 @@
                     <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
                     <br>
                     <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
-                    <label>Desejo receber o resultado por e-mail</label>
+                    <label for="getResult">Desejo receber o resultado por e-mail</label>
                 </fieldset>
                 <br>
                 <button type="submit">Enviar</button>
