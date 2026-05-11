@@ -4,7 +4,7 @@
   width: 312px;
   height: 288px;
   box-sizing: border-box;
-  padding: 0;
+  padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
 }
@@ -13,6 +13,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
